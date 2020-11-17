@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 let low = -1000000,
   high = 1000000;
 app.get("/", (req, res) => {
-  res.send("HEllo, I'm Working");
+  res.send("Hello world!");
 });
 
 app.post("/add", (req, res) => {
